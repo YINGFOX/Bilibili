@@ -1,3 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1586000880820'); /* IE9 */
+  src: url('iconfont.eot?t=1586000880820#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOcAAsAAAAAB9gAAANNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDPIMRATYCJAMMCwgABCAFhG0HOhvbBhHVm6PIfiZkchfWM88JdbmONU2G0Gnim+AB875emtR/ZiHoaOgEFQu7AQBjcCByZdP01qaoLqMiFEtyHnyX/5H8AsKF0PHHvdO/Og9sPqBc5h4YYBxIge1tURfJD1hibxi7aikO6j4E4JCevIiq1es2xUKBlwlA9O3VoxNWRo9qKBVYCIyKvQoxCx1Lm6xdBGYG3xdvKCws0NAleG3D7tW6UvF5z+ez5ahoVFuBIJjOCqiHQAJ5AQWifaW9JTKK50Xi2HLVnGugEGhThaIo4DtSg/zhgYYAYYCLYwDkRAkNnvdk/EQxGwqvWvBwXgOwRzIGuDJBJRioxEmT2vjWWEwm7hI+aT6eN/uKB54rgtR+p2hTELQ2rBCG+Y/wHm7tpE1eWs/HD9lfooz04PFtODH65NTjo441C2WdkDawx4/yfYLnhi/yn+E9fVo0nTdlwxIhRy/duD5Zs/mLRy1KWqHVFdruHLHQdtXyH7dPJKhSqaFcnL2BVS15pcgkb9inaeemck3OJnby4SOv6JuL5G6ZtVrz+90nclNmfKt2q036i6/RCE63Llv3Q7b6+fT5Aw8m7lnLnJ6ltkyUZGeCj1fVPH2ZcXHqwV1FSxQtWbVE0/3sEjzCjQyrqhYriSocV3//quOII7i8I8moektlzKgg9VbGjGL4oVRNbm3vu3LHwTTTwngzQTB91YHrYzdcSHN+IxWB6E90QQlZ9A8+R4axvUp3SFD2m+UqAG7vmPcx4HZDRzWOAiw06Cz4XzI1CRKJHRHWS2U5oz+qawJJM/5JVAMc4oYIuhNzf7g62TuxCqyMQAUNk3QgsciKKkpe0HEpCgYWFcAhDzUOuyRhMBKhbCA34wEIErITNOI5CZKEXEIV5R7oJOcdGCQUEhyaiyRnumQXbLpVETSKHuwfkuOVqElvYekdwzEbSYsC2htlTyHo6jafmnBFmWLD/gm9KgEJLzCCx3CeGTbhjE7rqLoNTUNVb6odL9WNKoJG0YP9Q3K8khistwL5dwzHbKShp83+RtnT+NDVbQd0kq+dem7llf0TelUCEl5gBFacSZxhq56V0WkdB0S3oUH9qKu8Xl65vN8hwAFfL4UmpFCYA9Ma5mM9dWYya6gqAAAA') format('woff2'),
+  url('iconfont.woff?t=1586000880820') format('woff'),
+  url('iconfont.ttf?t=1586000880820') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1586000880820#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pinglun:before {
+  content: "\e691";
+}
+
+.icon-bofang:before {
+  content: "\e668";
+}
+
+
 /* 初始化 */
 page,view,swiper,swiper-item,navigator,video{
   box-sizing: border-box;
